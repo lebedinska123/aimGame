@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="main.css">
+    <title>AIM Game</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="game-block main-screen">
+            <div>
+                <h1 class="game-block__title">
+                    AIM Training
+                </h1>
+                
+                <div class="game-block__content">
+                    <button class="btn btn-start-game">Начать игру</button>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="game-block choose-time-screen">
+            <div>
+                <h1 class="game-block__title">
+                    Выберите время
+                </h1>
+                
+                <div class="game-block__content">
+                    <div class="time-btns">
+                        <button class="btn time-btn" data-time="10">10 секунд</button>
+                        <button class="btn time-btn" data-time="20">20 секунд</button>
+                        <button class="btn time-btn" data-time="30">30 секунд</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="game-block game-screen">
+            <div>
+                <h3 class="time-left">Оставшееся время: <span class="time-left__time">00:00</span></h3>
+                <div class="game-area"></div>
+            </div>
+        </div>
+    </div>
+        
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
